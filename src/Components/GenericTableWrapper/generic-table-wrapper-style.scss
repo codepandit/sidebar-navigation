@@ -1,0 +1,25 @@
+.table-wrapper {
+  display: grid;
+  grid-template-rows: auto;
+  background-color: #151e27;
+  border: 1px solid #242a31;
+  margin: 20px;
+  margin-top: 40px;
+  max-height: 600px;
+  overflow: auto;
+
+  &-header {
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    color: #fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 12px;
+    
+
+    &-title {
+      grid-column-start: 1;
+      grid-column-end: 2;
+    }
+  }
+}
